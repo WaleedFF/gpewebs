@@ -422,12 +422,11 @@ ul li ul.dropdown li a {
 }
 
 .simple-container {
-    margin: 16px 16px 16px 16px;
-    padding: 16px 16px 16px 16px;
+    padding: 0px 16px;
 }
 
 .simple-container .title {
-    color: #54595f;
+    color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
     text-transform: capitalize;

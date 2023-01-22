@@ -13,11 +13,17 @@ body {
     background-color: #f7f7fc;
 }
 
+
+
 .navbar {
     position: fixed;
     z-index: 1;
     height: 94px;
     background-color: #969696;
+}
+
+.light-background{
+    background-color: #dcd8d7;
 }
 
 .navbar-collapse {
@@ -688,28 +694,26 @@ ul li ul.dropdown li a {
 }
 
 .business-plan {
-    background-color: #df505c;
+    background-color: #c83c39;
 }
 
 .pro-plan {
-    background-color: #6ec1e4;
+    background-color: #66a7e5;
 }
 
 .starter-plan {
-    background-color: #61ce70;
+    background-color: #02cc1d;
 }
 
 .basic-plan {
     background-color: #CED2DA;
 }
 
-.plans-button:first-child {
+.plans-button {
     width: 25%;
 }
 
-.plans-button {
-    width: 18%;
-}
+
 
 .client-feedback-container {
     border: 3px solid #000000;
@@ -741,6 +745,9 @@ ul li ul.dropdown li a {
     text-decoration: none;
     text-transform: capitalize;
     letter-spacing: 1px ;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 /*Footer Styles*/
@@ -810,6 +817,45 @@ ul li ul.dropdown li a {
     color: #333 !important;
 }
 
+.time-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.time-container .time{
+    background-color: #125896;
+    height: 100px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.time-container .time .counter {
+    font-size: 40px;
+    color: #edc525;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.time-container .time .hours {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.bsp-order{
+    font-size: 24px;
+    color: #fff;
+    background-color: #ff5544;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 0px;
+}
 
 @media only screen and (max-width: 600px) {
     .navbar-collapse{
@@ -887,6 +933,10 @@ ul li ul.dropdown li a {
         display: block;
         margin-top: 20px;
         text-align: center;
+    }
+
+    .bsp-mobile-margin{
+        margin-top: 20px;
     }
   }
   

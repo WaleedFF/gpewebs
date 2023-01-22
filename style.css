@@ -876,7 +876,23 @@ ul li ul.dropdown li a {
     width: 715px;
 }
 
+.mobile-display{
+    display: none;
+}
+
+
+
 @media only screen and (max-width: 600px) {
+
+    .desktop-display{
+        display: none;
+    }
+
+    .mobile-display{
+        display: block;
+    }
+
+
     .navbar-collapse{
         background-color: rgb(150, 150, 150);
         position: absolute;

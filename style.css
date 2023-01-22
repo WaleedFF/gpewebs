@@ -77,9 +77,6 @@ body {
 }
 
 .header-background {
-    background-image: url(assets/home/header-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 720px;
     position: relative;
 }
@@ -156,7 +153,7 @@ body {
 
 .home-sub-head{
     margin-top: 30px;
-    color: #F4FBFF;
+    color: #333;
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
